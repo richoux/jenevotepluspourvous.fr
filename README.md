@@ -1,5 +1,5 @@
 # jenevotepluspourvous.fr
-Le site de www.jenevotepluspourvous.fr est une idée de Thomas Vincent (@NetVinc). L'idée est simple : "annoncer à son/sa député(e) ayant voté la PJLRenseignement qu'on ne votera plus pour lui/elle, avec un compteur de voix perdues".
+Le site de www.jenevotepluspourvous.fr est une idée de Thomas Vincent (@NetVinc). L'idée est simple : "annoncer à son/sa député(e) ayant voté la PJLRenseignement qu'on ne votera plus pour lui/elle, avec un compteur de voix perdues". Pour savoir qui a voté ou pas : http://www2.assemblee-nationale.fr/scrutins/detail/%28legislature%29/14/%28num%29/1109
 
 Je loue le nom de domaine jenevotepluspourvous.fr et l'héberge sur mon espace OVH. Actuellement, il y a juste un index.html qui vous révelle l'étendue de mes connaissances en développement web. Ce projet cherche donc des webdevs motivés pour faire un site qui tient la route rapidement.
 
