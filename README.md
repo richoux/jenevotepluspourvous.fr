@@ -4,7 +4,7 @@ Le site de jenevotepluspourvous.fr est une idée de Thomas Vincent (@NetVinc). L
 Je loue le nom de domaine jenevotepluspourvous.fr et l'héberge sur mon espace OVH. Actuellement, il y a juste un index.html qui vous révelle l'étendue de mes connaissances en développement web. Ce projet cherche donc des webdevs motivés pour faire un site qui tient la route rapidement.
 
 Matériel actuel :
-- la photos-vignette de nos 557 députés, extraites de nosdeputes.fr
+- la photos-vignette de nos 557 députés, extraites de www.nosdeputes.fr
 - le fichier deputes_origin.csv avec toutes les données publiques utiles sur nos députés, venant de http://www.nosdonnees.fr/dataset/les-dputs-franais
 - un petit script ruby pour en extraire les données (prénom et nom jusque là)
 
