@@ -8,5 +8,7 @@ Matériel actuel :
 - le fichier deputes_origin.csv avec toutes les données publiques utiles sur nos députés, venant de http://www.nosdonnees.fr/dataset/les-dputs-franais
 - un petit script ruby pour en extraire certaines données (prénom et nom jusque là)
 
+Pour voir ce que donne actuellement le fichier index.html sur GitHub : http://rawgit.com/richoux/jenevotepluspourvous.fr/master/index.html (attention, ceci n'est pas forcément la page active sur www.jenevotepluspourvous.fr)
+
 L'idée serait d'arriver à un site où l'on peut chercher son député et cliquer sur sa vignette pour faire monter un compteur. Je ne pense pas souhaitable de faire un système pour empécher une même personne de cliquer plusieurs fois ; il faudra mettre un disclamer soulignant que cliquer rentre dans une démarche citoyenne et qu'il ne faut pas faire n'importe quoi.
 
