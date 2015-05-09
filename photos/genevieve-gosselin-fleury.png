@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="fr" />
+<meta name="robots" content="index, follow" />
+  
+    <title></title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="search" href="/nosdeputesfr.xml" title="Rechercher sur NosDéputés.fr" type="application/opensearchdescription+xml" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/xneth/jquery-ui-1.8.5.custom.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/xneth/style.v.2812.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="/css/xneth/print.css" />
+    <!--[if lte IE 6]>
+      <link rel="stylesheet" type="text/css" media="screen" href="/css/xneth/ie6.css" />
+      <script type="text/javascript" src="/iepngfix/iepngfix_tilebg.js"></script>
+      <style type="text/css">
+        img, div { behavior: url('/iepngfix/iepngfix.php') }
+      </style> 
+    <![endif]-->
+    <style type="text/css">
+.c_gdr { color: rgb(255,30,30); } .c_b_gdr { background-color: rgb(255,30,30); } .synthese .c_gdr { border-left: 5px solid rgb(255,30,30); }.c_src { color: rgb(255,50,190); } .c_b_src { background-color: rgb(255,50,190); } .synthese .c_src { border-left: 5px solid rgb(255,50,190); }.c_nc { color: rgb(30,180,255); } .c_b_nc { background-color: rgb(30,180,255); } .synthese .c_nc { border-left: 5px solid rgb(30,180,255); }.c_ump { color: rgb(30,30,200); } .c_b_ump { background-color: rgb(30,30,200); } .synthese .c_ump { border-left: 5px solid rgb(30,30,200); }.c_ni { color: rgb(165,165,165); } .c_b_ni { background-color: rgb(165,165,165); } .synthese .c_ni { border-left: 5px solid rgb(165,165,165); } .synthese .c_gdr, .synthese .c_src, .synthese .c_nc, .synthese .c_ump, .synthese .c_ni { padding-left: 2px; padding-right: 2px; color: #6F6F6F; };</style>
+    <script type="text/javascript" src="/js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.8.5.custom.min.js"></script>
+    <script type="text/javascript" src="/js/fonctions.js"></script>
+  </head>
+  <body>
+  <div id="contenu">
+      <div id="top">
+        <div class="initiative">
+          <a href="http://www.regardscitoyens.org/" onclick="return(window.open(this.href)?false:true);">Une initiative de RegardsCitoyens.org</a>
+        </div>
+<div id="connected" class="identification">
+<p id="loggued_top">
+<a href="/login">Se connecter</a> - 
+<a href="/login">Mon compte</a>
+</p>
+</div>
+  <script type="text/javascript"><!-- 
+  $('#connected').load("/ajax/identification"); 
+--></script>
+      </div>
+      <div id="header">
+        <a style="float:left;" href="/"><img id="logo" alt="NosDeput&eacute;s.fr" src="/images/xneth/header_logo_2007_v2.png" /></a>
+        <a style="float:right; margin-right: 55px; margin-top: 2px;" href="http://www.regardscitoyens.org/nous-aider/"><img alt="Nous soutenir" src="/images/contribuer.png" /></a>
+      </div>
+        <div id="menu">
+        <div class="menu_navigation">
+            <div id="item1"><a href="/" title="Accueil"></a></div>
+          <div id="item2"><a class="selected" href="/deputes"><span class="gris">Les</span> <span class="vert">D</span><span class="gris">&eacute;put&eacute;s</span></a></div>
+          <div id="item3"><a href="/dossiers/date"><span class="gris">Les</span> <span class="orange">D</span><span class="gris">ossiers</span></a></div>
+          <div id="item4"><a href="/citoyens/date"><span class="gris">Les</span> <span class="bleu">C</span><span class="gris">itoyens</span></a></div>
+          <div id="item5"><a title="Questions fréquemment posées" href="/faq"><span class="gris">FAQ</span></a></div>
+        </div>
+                <div class="menu_recherche">
+          <form action="/recherche" method="get">
+            <p>
+              <input class="rechercher examplevalue" name="search" type="text" size="25" value="Rechercher un député, une ville, un mot, ..."/>
+              <input title="Rechercher sur NosDéputés.fr" class="bouton_ok" value="" type="submit"/>
+            </p>
+          </form>
+        </div>
+      </div>
+      <div id="sous_menu">
+        <div id="sous_menu_1" style="display:block">
+        <div class="elements_sous_menu">
+          <ul>
+            <li><a href="/deputes">Par ordre alphabétique</a> <strong>|</strong></li>
+            <li><a href="/circonscription">Par circonscription</a> <strong>|</strong></li>
+            <li><a href="/deputes/tags">Par mots clés</a> <strong>|</strong></li>
+            <li><a href="/synthese">Synthèse</a> <strong>|</strong></li>
+            <li><a href="/hasard">Au hasard</a></li>
+          </ul>
+        </div>
+        </div>
+        <div id="sous_menu_2" style="display:none">
+              <div class="elements_sous_menu">
+          <ul>
+            <li><a href="/dossiers/date">Les derniers dossiers</a> <strong>|</strong></li>
+            <li><a href="/dossiers/plus">Les dossiers les plus discutés</a> <strong>|</strong></li>
+            <li><a href="/dossiers/coms">Les dossiers les plus commentés</a></li>
+          </ul>
+        </div>
+        </div>
+        
+        <div id="sous_menu_3" style="display:none">
+              <div class="elements_sous_menu">
+          <ul>
+            <li><a href="/citoyens/date">Tous les citoyens</a> <strong>|</strong></li>
+            <li><a href="/commentaires">Les derniers commentaires</a> <strong>|</strong></li>
+            <li><a href="/assister-aux-debats">Assister aux débats</a></li>
+          </ul>
+        </div>
+	</div>
+	     <div style="text-align: center; margin-top: 27px;"><h2><a href="http://2012.nosdeputes.fr/deputes">Découvrez vos députés de la 14<sup>ème</sup> législature !</a></h2></div>
+      </div>
+      <div id="corps_page">
+        <div class="contenu_page">
+                              <h1>Nous n'avons pas pu trouver la page demandée</h1>
+        </div>
+      </div>
+      <div id="bottom">
+<div class="legal">
+<span id="licences">
+<a href="http://cpc.regardscitoyens.org/trac"><img src="/images/agpl.png" height="15"/></a>
+<a href="http://cpc.regardscitoyens.org/trac/wiki/API"><img src="/images/opendata.png" height="15"/></a>
+</span>
+<span id="legalinks"><a href="/faq">Questions fréquentes</a>&nbsp; &mdash; &nbsp;<a href="http://www.regardscitoyens.org/publication/">Données</a>&nbsp; &mdash; &nbsp;<a href="http://cpc.regardscitoyens.org/trac/wiki/API">API</a>&nbsp; &mdash; &nbsp;<a href="http://www.regardscitoyens.org/mentions-legales/">Mentions légales</a>&nbsp; &mdash; &nbsp;<a href="http://www.regardscitoyens.org/nous-contacter/">Contact</a></span>
+</div>
+        <div class="regardscitoyens">
+		<a href="http://www.regardscitoyens.org"><span class="RC">R</span>egards<span class="RC">C</span><span style="color: #C1272D;">i</span>toyens.org</a>
+		</div>
+      </div>
+    </div>
+<script type="text/javascript"> 
+// Google 
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-10423931-2']); 
+  _gaq.push (['_gat._anonymizeIp']);
+  _gaq.push(['_setDomainName', 'nosdeputes.fr']);
+  _gaq.push(['_trackPageview']); 
+  (function() { 
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+  })(); 
+</script>
+  </body>
+</html>
