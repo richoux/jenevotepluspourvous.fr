@@ -36,15 +36,21 @@ File.open(ARGV[0], "w") do |file|
     file.write("    </script>\n")
     file.write("    <div class=\"dabox\">\n")
     file.write("      <div class=\"pos_bouton\">\n")
-    file.write("        <button type=\"button\" onClick=\"onClick_#{nom_sans_tiret}()\">Je ne vote plus pour vous #{nom_capital}</button>\n")
+    file.write("        <button type=\"button\" onClick=\"onClick_#{nom_sans_tiret}()\">Je ne vote plus pour vous</br> #{nom_capital}</button>\n")
     file.write("      </div>\n")
     file.write("      <div class=\"pos_vote\">\n")
     file.write("        Voix perdues : <a id=\"clicks_#{nom_sans_tiret}\">0</a>\n")
     file.write("      </div>\n")
     file.write("    </div>\n\n")
   end
-  
+
   file.write("  </body>\n")
+
+  file.write("  <div id=\"footer\">\n")
+  file.write("    <script src=\"boitenoirekiller.js\"></script>\n")
+  file.write("    <a href=\"https://boitenoirekiller.com\">Ici, on n'aime pas les boîtes noires.</a>\n")
+  file.write("  </div>\n")
+  
   file.write("</html>\n")
 end
 

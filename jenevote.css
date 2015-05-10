@@ -27,3 +27,11 @@ img {
 }
 
 
+#footer {
+  position: relative;
+  margin-top: -180px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+  text-align: center;
+  font-size: 200%;
+}
