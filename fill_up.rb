@@ -48,7 +48,7 @@ File.open(ARGV[0], "w") do |file|
 
   file.write("  <div id=\"footer\">\n")
   file.write("    <script src=\"boitenoirekiller.js\"></script>\n")
-  file.write("    <a href=\"https://boitenoirekiller.com\">Ici, on n'aime pas les boîtes noires.</a>\n")
+  file.write("    <a href=\"https://boitenoirekiller.com\">On n'aime pas les boîtes noires.</a>\n")
   file.write("  </div>\n")
   
   file.write("</html>\n")
