@@ -1,0 +1,29 @@
+.depute {
+    padding: 25px 25px 25px 25px;
+}
+
+img {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin: 50px 50px 50px 50px;
+}
+
+.dabox {
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin: 50px 50px 50px 50px;
+}
+
+.dabox .pos_bouton {    
+    position: relative;
+    top: 90px;
+}
+
+.dabox .pos_vote {    
+    position: relative;
+    top: 100px;
+}
+
+

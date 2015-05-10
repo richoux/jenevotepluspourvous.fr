@@ -1,0 +1,28 @@
+.depute {
+    padding: 25px 25px 25px 25px;
+}
+
+img {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin: 50px 50px 50px 50px;
+}
+
+/* pos_image {     */
+/*     position: relative; */
+/*     left: 20px; */
+/*     top: 200px; */
+/* } */
+
+.pos_bouton {    
+    position: relative;
+    top: 90px;
+}
+
+.pos_vote {    
+    position: relative;
+    top: 100px;
+}
+
+
